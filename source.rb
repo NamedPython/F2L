@@ -112,14 +112,10 @@ def move_to_list(client, users)
   end
 end
 
+# process starts
 client = init
-
 filters = load_filters('filter_include.txt')
-
 following_users = following(client)
-
 extracted = extract(filters, following_users)
-
 unfollow_all(client, extracted)
-
 move_to_list(client, extracted)
