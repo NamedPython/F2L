@@ -3,6 +3,10 @@ Twitterのフォローしている人たちをフィルタリングしてリム�
 
 誰が得するか、自分。あとRubyの勉強。
 
+# Deprecated
+
+TwitterのKEYやSECRET取得周りがガラッと変わり、API提供体系も変わったため動かない遺産に。
+
 # How to use
 
 `https://apps.twitter.com/` で自分用のAppを作りましょう。作ったら、
